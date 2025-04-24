@@ -1,0 +1,14 @@
+/styles
+  ├── globals.css       # Globale Stile für die gesamte Anwendung
+  ├── Home.module.css   # Stile für die 'Home'-Seite
+  └── About.module.css  # Stile für die 'About'-Seite (optional)
+import '../styles/globals.css'; // Für alle Seiten
+import styles from '../styles/Home.module.css'; // Für diese Komponente/Seite
+
+export default function Home() {
+  return (
+    <div className={styles.container}>
+      <h1 className={styles.title}>Willkommen bei MeisterDirekt!</h1>
+    </div>
+  );
+}
