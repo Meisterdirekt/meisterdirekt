@@ -1,0 +1,17 @@
+import Head from 'next/head';
+
+const Home = () => {
+  return (
+    <>
+      <Head>
+        <title>MeisterDirekt - Deine Handwerkervermittlung</title>
+      </Head>
+      <div>
+        <h1>Willkommen bei MeisterDirekt!</h1>
+        <p>Finde schnell den passenden Handwerker in deiner Nähe.</p>
+      </div>
+    </>
+  );
+};
+
+export default Home;
